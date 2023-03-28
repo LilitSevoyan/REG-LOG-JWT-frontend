@@ -1,0 +1,96 @@
+.Main_Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Main_Content .Register_Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 610px;
+  margin: 0 auto;
+}
+
+.Main_Content .Register_Content .Login_main {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.Main_Content .log_reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px auto;
+  font-size: 22px;
+  width: 40%;
+  line-height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b4afaf;
+}
+
+.Main_Content .log_reg .register {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content .log_reg .login {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Main_Content form .errors {
+  color: red;
+}
+
+.Main_Content form input {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.Main_Content form button {
+  height: 40px;
+  margin: 30px 0;
+  background-color: #b4afaf;
+}
+
+.Main_Content a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=register.css.map */

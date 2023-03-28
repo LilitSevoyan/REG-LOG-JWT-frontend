@@ -1,0 +1,60 @@
+.Main_Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .Register_Content{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:610px;
+        margin: 0 auto;
+        .Login_main{
+            flex-basis: 70%;
+        }
+        
+    }
+    .log_reg{
+        display: flex;
+        justify-content: center;
+        margin:40px auto;
+        font-size: 22px;
+        width:40%;
+        line-height: 60px;
+        align-items: center;
+        background-color:rgb(180, 175, 175);
+        .register{
+            width:100%;
+            text-align: center;
+            border:1px solid #000;
+        }
+        .login{
+            width:100%;
+            text-align: center;
+            border:1px solid #000;
+        }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 40%;
+        justify-content: center;
+        .errors{
+            color:red;
+        }
+        input{
+            height: 40px;
+            margin:10px 0;
+        }
+        button{
+            height: 40px;
+            margin:30px 0;
+            background-color:rgb(180, 175, 175);
+        }
+    }
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+    
+}
